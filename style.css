@@ -1,0 +1,66 @@
+/* Importing Montserrat and Roboto from Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/*LINK TO GLOBAL SITES*/
+.up{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -25px;
+}
+
+.up-item{
+    text-decoration: none;
+}
+  
+.up-item:hover{
+    color: blueviolet;
+}
+
+
+/* NAVBAR Classes*/
+
+.top-items{
+    padding: 0 1vw;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+.top-link{
+    font-size: 1.2rem;
+    color: rgb(92, 91, 91); 
+} 
+
+nav.navbar div div ul li,
+div.up ul li{
+    display: inline;
+}
+
+hr{
+    position: relative;
+    bottom: 9px;
+    color:gray;
+}
+
+.pad{
+  margin-top:35px;
+} 
+
+
+#footer{
+  text-align: center;
+  padding: 2%;
+  background-color: #00629b;
+}
+
+.foot{
+  margin: 20px 25px;
+  color:#fff;
+  font-size: 140%;
+}
+.copyright-text{
+color: #fff;
+margin-top: 20px;
+opacity: 50%;
+}
