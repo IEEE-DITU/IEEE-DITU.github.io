@@ -2,65 +2,253 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+* {
+    font-family: 'Montserrat';
+}
+
 
 /*LINK TO GLOBAL SITES*/
-.up{
+.up {
     margin: 0;
     padding: 0;
     position: relative;
     left: -25px;
 }
 
-.up-item{
+.up-item {
     text-decoration: none;
 }
-  
-.up-item:hover{
+
+.up-item:hover {
     color: blueviolet;
 }
 
 
 /* NAVBAR Classes*/
 
-.top-items{
-    padding: 0 1vw;
+.top-items {
     font-family: "Montserrat";
     font-weight: 500;
 }
-.top-link{
-    font-size: 1.2rem;
-    color: rgb(92, 91, 91); 
-} 
+
+.nav-link.top-link {
+    color: rgb(92, 91, 91);
+}
 
 nav.navbar div div ul li,
-div.up ul li{
+div.up ul li {
     display: inline;
 }
 
-hr{
+hr {
     position: relative;
     bottom: 9px;
-    color:gray;
+    color: gray;
 }
 
-.pad{
-  margin-top:35px;
-} 
-
-
-#footer{
-  text-align: center;
-  padding: 2%;
-  background-color: #00629b;
+.pad {
+    margin-top: 35px;
 }
 
-.foot{
-  margin: 20px 25px;
-  color:#fff;
-  font-size: 140%;
+
+#footer {
+    text-align: center;
+    padding: 2%;
+    background-color: #00629b;
 }
-.copyright-text{
-color: #fff;
-margin-top: 20px;
-opacity: 50%;
+
+.foot {
+    margin: 20px 25px;
+    color: #fff;
+    font-size: 140%;
+}
+
+.copyright-text {
+    color: #fff;
+    margin-top: 20px;
+    opacity: 50%;
+}
+
+/* teams page css */
+
+.faculty-adviser {
+    text-align: center;
+    font-weight: 900;
+    margin-top: 3%;
+}
+
+.card1 {
+    /* font-family:'Baloo Bhai 2', cursive; */
+    /* width: 300px; */
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 280px;
+    transition-duration: 0.4s;
+    transition-property: transform;
+    transform-origin: 0% 30%;
+}
+
+.card1:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.card2 {
+    /* width: 300px; */
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 280px;
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+
+.card2:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.card3 {
+    /* width: 300px; */
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 280px;
+    transition-duration: 0.4s;
+    transition-property: transform;
+    transform-origin: 100% 30%;
+}
+
+.card3:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.card-image img {
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.profile-image img {
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top: -75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    border: 10px solid #fff;
+}
+
+.card-content h3 {
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+.card-content p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 20px 5px 20px;
+}
+
+.icons {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.icons a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #00629B;
+    padding: 0 14px;
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+
+.icons a:hover {
+    color: black;
+    transform: scale(1.5);
+}
+
+.card1.col-4 {
+    padding: 0;
+}
+
+.card2.col-4 {
+    padding: 0;
+}
+
+.card3.col-4 {
+    padding: 0;
+}
+
+.student-council-heading {
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: 900;
+    /* font-family:'Baloo Bhai 2', cursive; */
+}
+
+.nav-item {
+    width: calc(100%/3);
+}
+
+.nav-link {
+    font-size: 27px;
+}
+
+.nav-pills .nav-link.mx-auto.active {
+    background-color: #00629B;
+    color: #fff;
+    border: 3px solid #00629B;
+    border-radius: 35px;
+    font-weight: 1000;
+}
+
+.nav-pills .nav-link {
+    background-color: #fff;
+    color: #888;
+    font-weight: 100;
+    margin-right: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 5%;
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+
+.nav-pills .nav-link:hover {
+    border: none;
+    transform: scale(1.2);
+    color: black;
+}
+
+.nav-pills .nav-link.active:hover {
+    transform: scale(1);
+}
+
+.messege h2 {
+    text-align: center;
+    margin-top: 3%;
 }
