@@ -14,12 +14,11 @@
 
 /*LINK TO GLOBAL SITES*/
 .up {
-    background-color: #fff;
     margin: 0;
     padding: 0;
     position: relative;
     left: -25px;
-    padding-bottom: 0.5rem;
+    background-color: #fff;
 }
 
 .up-item {
@@ -131,7 +130,7 @@ nav.shift ul li a {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 280px;
     transition-duration: 0.4s;
     transition-property: transform;
     transform-origin: 0% 30%;
@@ -151,7 +150,7 @@ nav.shift ul li a {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 280px;
     transition-duration: 0.4s;
     transition-property: transform;
 }
@@ -170,7 +169,7 @@ nav.shift ul li a {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 280px;
     transition-duration: 0.4s;
     transition-property: transform;
     transform-origin: 100% 30%;
@@ -207,7 +206,6 @@ nav.shift ul li a {
     text-align: center;
     margin: 0;
     font-weight: bold;
-    margin-bottom: 6%;
 }
 
 .card-content p {
@@ -251,7 +249,6 @@ nav.shift ul li a {
 .student-council-heading {
     text-align: center;
     margin-bottom: 5%;
-    margin-top: 8%;
     font-weight: 900;
     /* font-family:'Baloo Bhai 2', cursive; */
 }
@@ -297,10 +294,6 @@ nav.shift ul li a {
 .messege h2 {
     text-align: center;
     margin-top: 3%;
-}
-
-.teampage{
-    background-image: -webkit-linear-gradient(220deg,#00629b 5%,#fff 35%);
 }
 
 
@@ -408,12 +401,24 @@ nav.shift ul li a {
     display: none;
 }
 
-#particles-js
-{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Assets/Images/DIT\ COVER.jpg);
+.teampage{
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(220deg, #00629b 5%, #fff 35%);
 }
 
-/*About page css*/
+.card-content h3{
+    margin-bottom: 6%;
+}
+
+#particles-js
+{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(Assets/Images/DIT\ COVER.jpg);
+}
+
+/* ABOUT PAGE */
 
 .about-body{
     background-image: -webkit-linear-gradient(220deg,#00629b 5%,#fff 35%);
