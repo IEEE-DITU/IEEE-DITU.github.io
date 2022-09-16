@@ -19,6 +19,7 @@
     position: relative;
     left: -25px;
     background-color: #fff;
+    padding-bottom: 0.5rem;
 }
 
 .up-item {
@@ -130,7 +131,7 @@ nav.shift ul li a {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    margin-bottom: 280px;
+    margin-bottom: 80px;
     transition-duration: 0.4s;
     transition-property: transform;
     transform-origin: 0% 30%;
@@ -141,6 +142,7 @@ nav.shift ul li a {
     cursor: pointer;
 }
 
+
 .card2 {
     /* width: 300px; */
     overflow: hidden;
@@ -150,7 +152,7 @@ nav.shift ul li a {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    margin-bottom: 280px;
+    margin-bottom: 80px;
     transition-duration: 0.4s;
     transition-property: transform;
 }
@@ -169,7 +171,7 @@ nav.shift ul li a {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    margin-bottom: 280px;
+    margin-bottom: 80px;
     transition-duration: 0.4s;
     transition-property: transform;
     transform-origin: 100% 30%;
@@ -295,7 +297,43 @@ nav.shift ul li a {
     text-align: center;
     margin-top: 3%;
 }
+/* .teampage{
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(220deg, #00629b 5%, #fff 35%);
+} */
 
+.card-content h3{
+    margin-bottom: 6%;
+}
+
+@media (max-width: 480px) {
+    .card1:hover {
+       transform: scale(1);
+    }
+    .card2:hover {
+       transform: scale(1);
+    }
+    .card3:hover {
+       transform: scale(1);
+    }
+    .up{
+        background-color: #fff;
+
+    }
+    .up-item{
+        font-size: 55%;
+    }
+    .container-fluid{
+        padding-right: 5%;
+    }
+    .logo {
+        height: 100%;
+        width: 100%;
+    }
+    .navbar-brand {
+        width: 70%;
+    }
+ }
 
 /* EVENTS */
 
@@ -401,14 +439,7 @@ nav.shift ul li a {
     display: none;
 }
 
-.teampage{
-    background-color: #fff;
-    background-image: -webkit-linear-gradient(220deg, #00629b 5%, #fff 35%);
-}
 
-.card-content h3{
-    margin-bottom: 6%;
-}
 
 #particles-js
 {
@@ -499,3 +530,4 @@ nav.shift ul li a {
        font-size: 3rem;
        padding-bottom: 35px;
    }
+   
