@@ -60,13 +60,15 @@ hr {
 }
 
 nav.shift ul li a {
-    position:relative;
+    position: relative;
     z-index: 1;
-  }
-  nav.shift ul li :hover {
+}
+
+nav.shift ul li :hover {
     color: #fff;
-  }
-  nav.shift ul li :after {
+}
+
+nav.shift ul li :after {
     display: block;
     position: absolute;
     top: 0;
@@ -82,19 +84,20 @@ nav.shift ul li a {
     visibility: none;
     opacity: 0;
     z-index: -1;
-  }
-  nav.shift ul li :hover:after {
+}
+
+nav.shift ul li :hover:after {
     opacity: 1;
     visibility: visible;
     height: 100%;
     border-radius: 30px;
-  }
+}
 
-  nav ul li a,
-  nav ul li a:after,
-  nav ul li a:before {
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
     transition: all .25s;
-  }
+}
 
 #footer {
     text-align: center;
@@ -300,95 +303,107 @@ nav.shift ul li a {
     text-align: center;
     margin-top: 3%;
 }
-.teampage{
+
+.teampage {
     background-color: #fff;
     background-image: -webkit-linear-gradient(220deg, #00629b 5%, #fff 35%);
     overflow-x: hidden;
 }
 
-.card-content h3{
+.card-content h3 {
     margin-bottom: 6%;
 }
 
 @media (max-width: 480px) {
     .card1:hover {
-       transform: scale(1);
+        transform: scale(1);
     }
+
     .card2:hover {
-       transform: scale(1);
+        transform: scale(1);
     }
+
     .card3:hover {
-       transform: scale(1);
+        transform: scale(1);
     }
-    .up{
+
+    .up {
         background-color: #fff;
 
     }
-    .up-item{
+
+    .up-item {
         font-size: 55%;
     }
-    .container-fluid{
+
+    .container-fluid {
         padding-right: 5%;
     }
+
     .logo {
         height: 100%;
         width: 100%;
     }
+
     .navbar-brand {
         width: 70%;
     }
- }
+}
 
 /* EVENTS */
 
-#grbar{
+.event-page {
+    background-image: -webkit-linear-gradient(220deg, #00629b 5%, #fff 35%);
+}
+
+#grbar {
     margin: 10px;
-    background-image: linear-gradient(to right,#1e5296, #19a1d7);
+    background-image: linear-gradient(to right, #1e5296, #19a1d7);
     height: 120px;
 }
 
-.main-heading{
-    font-size:60px;
+.main-heading {
+    font-size: 60px;
     margin: 50px 0px 40px 0px;
 }
 
-.intro-para{
+.intro-para {
     font-size: 16px;
 }
 
-.headings{
+.headings {
     font-size: 40px;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px  ;
+    margin: 20px 0px;
     filter: drop-shadow(0 2px 6px lightgrey);
 }
 
-.upcoming-events{
+.upcoming-events {
     margin: 0% 2%;
     padding: 80px 0px;
 }
 
-.u-container{
+.u-container {
     padding: 20px 0px;
     background: rgba(211, 211, 211, 0.5);
 }
 
-.u-row{
+.u-row {
     display: flex;
     flex-direction: row;
     padding: 8px;
-    margin:2% 26%;
+    margin: 2% 20% 2% 24%;
     background: white;
     box-shadow: 0 2px 6px rgb(180, 180, 180);
     border-radius: 0rem;
 }
 
-.u-row p{
+.u-row p {
     font-size: 14px;
 }
 
-.month{
+.month {
     margin-top: 20px;
     background: white;
     color: black;
@@ -398,7 +413,7 @@ nav.shift ul li a {
     align-items: center;
 }
 
-.date{
+.date {
     font-size: 80px;
     color: white;
     display: flex;
@@ -406,204 +421,240 @@ nav.shift ul li a {
     align-items: center;
 }
 
-.info-column{
+.info-column {
     padding-left: 8px;
 }
 
-.past-events{
+.past-events {
     margin: 0% 10%;
     padding: 80px 0px;
 }
 
-.main-row{
-    padding:22px 10px;
-    margin: 80px;
+.main-row {
+    padding: 22px 10px;
+    margin: 0;
+    margin-top: 10%;
+    margin-bottom: 20%;
     box-shadow: 0 2px 6px rgb(180, 180, 180);
     border-radius: 0rem;
 }
 
-.event-image{
+.event-image {
     transform: translateY(-50px);
     object-fit: cover;
-    border-radius:0rem ;
+    border-radius: 0rem;
     box-shadow: 0 2px 6px rgb(180, 180, 180);
 }
 
-.event-date span{
+.event-date span {
     color: black;
     font-weight: 500;
 }
 
 
-.post:not(:last-child){
+.post:not(:last-child) {
     margin-bottom: 50px;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
 
 
-#particles-js
-{
+#particles-js {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(Assets/Images/DIT\ COVER.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(Assets/Images/DIT\ COVER.jpg);
 }
 
 /* ABOUT PAGE */
 
-.about-body{
-    background-image: -webkit-linear-gradient(220deg,#00629b 5%,#fff 35%);
-   }
-   
-   .about{
-       margin: 0 90px 90px 90px;
-       background-image: url(./Assets/Logo/ieee-logo.png);
-       background-repeat: no-repeat;
-       background-position: center top;
-   }
-   
-   .about-content{
-       font-size: 1.2rem;
-       margin: 20px 0 30px 0;
-       font-weight: 500;
-       font-family: "Montserrat";
-   }
-   .h3-space{
-       margin-top: 50px;
-   }
-   .about-image{
-       background-image: url(./Assets/Images/some.jpg);
-       background-repeat: no-repeat;
-       background-position: center top;
-       background-size: 100% 100%;
-       height: auto;
-       width: 70%;
-       margin-bottom: 70px;
-       margin: 4% auto 6%;
-       border-radius: 15px;
-   }
-   .about-grid{
-       padding-top: 12%;
-       padding-bottom: 10%;
-   }
-   .about-image11{
-       background-color: #fff;
-       margin-bottom: 25px;
-       margin-left: 20px;
-       font-size: 2.5rem;
-       text-align: center;
-       border-radius: 20px;
-       height: 70px;
-       width: auto;
-       background-color: #cfeff9;
-   }
-   .about-image22{
-       background-color: #fff;
-       margin-left: 20px;
-       font-size: 1.2rem;
-       border-radius: 15px;
-       text-align: center;
-       line-height: 1.6;
-       background-color: #cfeff9;
-       
-   }
-   
-   .card-img-about{
-       width: 100%;
-       padding-bottom: 8px;
-       height: 350px;
-       border-radius: 30px;
-   }
-   #gallery{
-       padding: 30px 100px 50px;
-       text-align: center;
-   }
-   .gallery-column{
-       padding: 3% 2%;
-   }
-   .gallery-div{
-       background-color:#EFEFEF;
-       padding-top: 40px;
-       border-radius: 30px;
-   }
-   .card-about{
-       border-radius: 2em;
-       overflow: hidden;
-       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
-   }
-   .gallery-title{
-       font-family: "Montserrat";
-       font-size: 3rem;
-       padding-bottom: 35px;
-   } 
-   @media only screen and (max-width: 480px){
-.about{
-    margin: 0 4% 3% 6%;
+.about-body {
+    background-image: -webkit-linear-gradient(220deg, #00629b 5%, #fff 35%);
+}
+
+.about {
+    margin: 0 90px 90px 90px;
     background-image: url(./Assets/Logo/ieee-logo.png);
-       background-repeat: no-repeat;
-       background-size: 150% 32%;
-       background-position: center;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
-.about-content{
-    font-size: .9rem;
+
+.about-content {
+    font-size: 1.2rem;
+    margin: 20px 0 30px 0;
+    font-weight: 500;
+    font-family: "Montserrat";
 }
-.about-image{
+
+.h3-space {
+    margin-top: 50px;
+}
+
+.about-image {
+    background-image: url(./Assets/Images/some.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
     height: auto;
-    width: 90%;
+    width: 70%;
+    margin-bottom: 70px;
+    margin: 4% auto 6%;
+    border-radius: 15px;
 }
-#gallery{
-    padding: 10% 6% 10%;
+
+.about-grid {
+    padding-top: 12%;
+    padding-bottom: 10%;
+}
+
+.about-image11 {
+    background-color: #fff;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 20px;
+    height: 70px;
+    width: auto;
+    background-color: #cfeff9;
+}
+
+.about-image22 {
+    background-color: #fff;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 1.6;
+    background-color: #cfeff9;
+
+}
+
+.card-img-about {
+    width: 100%;
+    padding-bottom: 8px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+#gallery {
+    padding: 30px 100px 50px;
     text-align: center;
 }
-.gallery-column{
-    padding: 6% 10%;
+
+.gallery-column {
+    padding: 3% 2%;
 }
-.gallery-div{
-    padding-top: 5%;
-}
-.gallery-title{
-    font-size: 2rem;
-    padding-bottom: 4%;
-}
-.about-image11{ 
-font-size: 1.5rem;
-/* height: auto;
-word-wrap: break-word; */
-height: 45px;
-border-radius: 15px;
-}
-.about-image22{
-    line-height: 1.2;
-    font-size: .8rem;
-}
-.card-img-about{
+
+.gallery-div {
+    background-color: #EFEFEF;
+    padding-top: 40px;
     border-radius: 30px;
-    height: 280px;
-    padding-bottom: 8px;
 }
-.about-grid{
-    padding-top: 12%;
-    padding-bottom: 8%;
+
+.card-about {
+    border-radius: 2em;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
-nav.shift ul li :after {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: -10%;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    width: 130%;
-    height: 1px;
-    content: '.';
-    color: transparent;
-    background: #00629b;
-    visibility: none;
-    opacity: 0;
-    z-index: -1;
-  }
-   }
+
+.gallery-title {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    padding-bottom: 35px;
+}
+
+@media only screen and (max-width: 480px) {
+    .about {
+        margin: 0 4% 3% 6%;
+        background-image: url(./Assets/Logo/ieee-logo.png);
+        background-repeat: no-repeat;
+        background-size: 150% 32%;
+        background-position: center;
+    }
+
+    .about-content {
+        font-size: .9rem;
+    }
+
+    .about-image {
+        height: auto;
+        width: 90%;
+    }
+
+    #gallery {
+        padding: 10% 6% 10%;
+        text-align: center;
+    }
+
+    .gallery-column {
+        padding: 6% 10%;
+    }
+
+    .gallery-div {
+        padding-top: 5%;
+    }
+
+    .gallery-title {
+        font-size: 2rem;
+        padding-bottom: 4%;
+    }
+
+    .about-image11 {
+        font-size: 1.5rem;
+        /* height: auto;
+word-wrap: break-word; */
+        height: 45px;
+        border-radius: 15px;
+    }
+
+    .about-image22 {
+        line-height: 1.2;
+        font-size: .8rem;
+    }
+
+    .card-img-about {
+        border-radius: 30px;
+        height: 280px;
+        padding-bottom: 8px;
+    }
+
+    .about-grid {
+        padding-top: 12%;
+        padding-bottom: 8%;
+    }
+
+    nav.shift ul li :after {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -10%;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 130%;
+        height: 1px;
+        content: '.';
+        color: transparent;
+        background: #00629b;
+        visibility: none;
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+/* animation css */
+
+@keyframes zooming {
+    from {
+        font-size: 0;
+    }
+
+    to {
+        font-size: larger;
+    }
+
+}
