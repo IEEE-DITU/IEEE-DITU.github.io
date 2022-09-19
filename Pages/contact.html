@@ -123,7 +123,7 @@
         <form class="form1 my-form" action = "https://formspree.io/f/mbjbgqvg" method="POST">
             <div class=" form-group formName">
                 <!-- <label for="exampleInputEmail1">First Name</label> -->
-                <input type="text" class="form-control" id="" aria-describedby="emailHelp"
+                <input type="text" name = "name" class="form-control" id="" aria-describedby="emailHelp"
                     placeholder="&#xf007;  Your name">
             </div>       
             <!-- <div class="form-group formName">
@@ -134,17 +134,17 @@
             </div> -->
             <div class="form-group formEmail">
                 <!-- <label for="exampleInputEmail1">Email address</label> -->
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <input type="email" name = "_replyto"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                     placeholder="&#xf0e0;  Email">
             </div>
             
             <div class="form-group">
                 <!-- <label for="exampleFormControlTextarea1"> Message </label> -->
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="&#xf27a;  Your message..."></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" name = "subject" rows="3" placeholder="&#xf27a;  Subject"></textarea>
               </div>
             <div class="form-group">
             <!-- <label for="exampleFormControlTextarea1"> Additional Details </label> -->
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="&#xf05a;  Additional details..."></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" name = "message" placeholder="&#xf05a;  Your Message..."></textarea>
             </div>
             
             <button type="submit" class="btn button Formbutton" style="margin-top:3% ;">Send Message</button>
