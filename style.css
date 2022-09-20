@@ -69,6 +69,7 @@
     left: -25px;
     background-color: #fff;
     padding-bottom: 0.5rem;
+    width: 110%;
 }
 
 .up-item {
@@ -403,6 +404,7 @@ nav ul li a:before {
 
 .event-page {
     background-image: -webkit-linear-gradient(220deg, #00629b 5%, #fff 35%);
+    overflow-x: hidden;
 }
 
 #grbar {
@@ -522,6 +524,7 @@ nav ul li a:before {
 
 .about-body {
     background-image: -webkit-linear-gradient(220deg, #00629b 5%, #fff 35%);
+    overflow-x: hidden;
 }
 
 .about {
@@ -695,15 +698,6 @@ word-wrap: break-word; */
     }
 }
 
-/* animation css */
-
-@keyframes zooming {
-    from {
-        font-size: 0;
-    }
-
-    to {
-        font-size: larger;
-    }
-
+.membership-page{
+    overflow-x: hidden;
 }
