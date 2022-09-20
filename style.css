@@ -11,6 +11,55 @@
     /* overflow-x: hidden; */
 }
 
+/* HOME PAGE */
+
+.slider .owl-item.active.center .slider-card{
+    transform: scale(1);
+    opacity: 1;
+   }
+
+   .slider-card{
+    background-color: #fff;
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 45px -20px rgba(206, 191, 191, 0.5);
+    transform: scale(0.75);
+    opacity: 0.5;
+    transition: all 0.3s;
+   }
+
+   .card-img-top{
+    border-radius: 5px 5px;
+    height: 250px;
+   }
+
+   .effect{
+    box-shadow: 0px 45px 45px -20px rgba(206, 191, 191, 0.5);
+    background-color: #fff;
+    padding: 25px;
+    transition: all 0.35s ease;
+   }
+
+   .effect:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+   }
+
+   .iconbox{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #00629B;
+    font-size: 32px;
+    border-radius: 100px;
+   }
+
+   .iconbox img{
+    width: 50px;
+   }
 
 /*LINK TO GLOBAL SITES*/
 .up {
