@@ -11,7 +11,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "viewport" content="width=device-width">
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
@@ -29,6 +29,8 @@
   
     <link rel="stylesheet" href="../contactstyle.css">
     <script src="https://kit.fontawesome.com/d068ab3ff0.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" type="image/png" href="../Assets/Logo/favicon-1.ico">
 </head>
 
 <body class="contactPage" >
@@ -74,19 +76,19 @@
                         <a class="nav-link top-link " href="../index.html">  HOME</a>
                     </li>
                     <li class="nav-item  top-items px-3">
-                        <a class="nav-link top-link" href="/Pages/About.html">ABOUT</a>
+                        <a class="nav-link top-link" href="./About.html">ABOUT</a>
                     </li>
                     <li class="nav-item  top-items px-3">
-                        <a class="nav-link top-link" href="/Pages/Events.html">EVENTS</a>
+                        <a class="nav-link top-link" href="./Events.html">EVENTS</a>
                     </li>
                     <li class="nav-item  top-items px-3">
-                        <a class="nav-link top-link" href="/Pages/team.html">TEAM</a>
+                        <a class="nav-link top-link" href="./team.html">TEAM</a>
                     </li>
                     <li class="nav-item  top-items px-3">
-                        <a class="nav-link top-link" href="/Pages/membership.html"> MEMBERSHIP</a>
+                        <a class="nav-link top-link" href="./membership.html"> MEMBERSHIP</a>
                     </li>
                     <li class="nav-item  top-items px-3">
-                        <a class="nav-link top-link" href="/Pages/contact.html">CONTACT</a>
+                        <a class="nav-link top-link" href="./contact.html">CONTACT</a>
                     </li>
                     <li>
                         <div class="dropdown" style="margin: 10px;">
@@ -124,7 +126,7 @@
             <div class=" form-group formName">
                 <!-- <label for="exampleInputEmail1">First Name</label> -->
                 <input type="text" name = "name" class="form-control" id="" aria-describedby="emailHelp"
-                    placeholder="&#xf007;  Your name">
+                    placeholder="&#xf007;  Your name" required>
             </div>       
             <!-- <div class="form-group formName">
                  <label for="exampleInputEmail1">Last Name</label>
@@ -135,20 +137,20 @@
             <div class="form-group formEmail">
                 <!-- <label for="exampleInputEmail1">Email address</label> -->
                 <input type="email" name = "_replyto"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="&#xf0e0;  Email">
+                    placeholder="&#xf0e0;  Email" required>
             </div>
             
             <div class="form-group">
                 <!-- <label for="exampleFormControlTextarea1"> Message </label> -->
-                <textarea class="form-control" id="exampleFormControlTextarea1" name = "subject" rows="3" placeholder="&#xf27a;  Subject"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" name = "subject" rows="3" placeholder="&#xf27a;  Subject" required></textarea>
               </div>
             <div class="form-group">
             <!-- <label for="exampleFormControlTextarea1"> Additional Details </label> -->
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" name = "message" placeholder="&#xf05a;  Your Message..."></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" name = "message" placeholder="&#xf05a;  Your Message..." required></textarea>
             </div>
             
             <button type="submit" class="btn button Formbutton" style="margin-top:3% ;">Send Message</button>
-            <div id="my-form-status"></div>
+            <div id="my-form-status" class="form-response"></div>
         </form>
     </div>
 
