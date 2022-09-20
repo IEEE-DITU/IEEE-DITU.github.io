@@ -13,7 +13,7 @@
     padding: 0;
     position: relative;
     left: -25px;
-   
+   width: 110%;
 }
 
 .up-item {
@@ -299,6 +299,7 @@ nav.shift ul li a {
 .contactPage{
      /* background-color: #fff; */
   background-image: -webkit-linear-gradient(220deg,#00629b 5%,#fff 35% );
+  overflow-x: hidden;
 } 
 
 
@@ -548,4 +549,3 @@ a:hover{
       margin-top: 10%;
     }
 }
-
