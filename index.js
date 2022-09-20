@@ -26,6 +26,10 @@ async function handleSubmit(event) {
     .then((response) => {
       status.innerHTML = "Thanks for your submission!";
       status.style.textAlign = "center";
+      status.style.marginTop="5%";
+      status.style.fontWeight="800";
+      status.style.fontSize="larger";
+      status.style.color="#00629b";
       form.reset();
     })
     .catch((error) => {
