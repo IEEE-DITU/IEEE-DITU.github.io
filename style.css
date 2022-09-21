@@ -13,6 +13,13 @@
 
 /* HOME PAGE */
 
+#particles-js {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(Assets/Images/DIT\ COVER.jpg);
+}
+
 .slider .owl-item.active.center .slider-card{
     transform: scale(1);
     opacity: 1;
@@ -40,6 +47,11 @@
     transition: all 0.35s ease;
    }
 
+   .effect.LCS-box{
+    align-items: center;
+    justify-content: center;
+   }
+
    .effect:hover {
     box-shadow: none;
     transform: translateY(5px);
@@ -49,6 +61,7 @@
     width: 75px;
     height: 75px;
     display: flex;
+    align-self: center;
     align-items: center;
     justify-content: center;
     color: #fff;
@@ -59,6 +72,11 @@
 
    .iconbox img{
     width: 50px;
+   }
+
+   .center-heading{
+    text-align: center;
+    font-weight: bold;
    }
 
 /*LINK TO GLOBAL SITES*/
@@ -97,6 +115,7 @@
 nav.navbar div div ul li,
 div.up ul li {
     display: inline;
+    
 }
 
 hr {
@@ -107,6 +126,10 @@ hr {
 
 .pad {
     margin-top: 35px;
+}
+
+.navbar{
+    box-shadow: 0px 15px 45px -20px rgba(206, 191, 191, 0.5);
 }
 
 nav.shift ul li a {
@@ -512,14 +535,6 @@ nav ul li a:before {
 }
 
 
-
-#particles-js {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(Assets/Images/DIT\ COVER.jpg);
-}
-
 /* ABOUT PAGE */
 
 .about-body {
@@ -546,7 +561,7 @@ nav ul li a:before {
 }
 
 .about-image {
-    background-image: url(./Assets/Images/some.jpg);
+    background-image: url(./Assets/Images/gallery_about/some.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% 100%;
