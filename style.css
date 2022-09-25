@@ -426,12 +426,12 @@ nav ul li a:before {
 /* EVENTS */
 
 .event-page {
-    background-image: -webkit-linear-gradient(220deg, #00629b 5%, #fff 35%);
+    /*background-image: -webkit-linear-gradient(220deg, #00629b 5%, #fff 35%);*/
     overflow-x: hidden;
 }
 
 #grbar {
-    margin: 10px;
+    margin: 00px;
     background-image: linear-gradient(to right, #1e5296, #19a1d7);
     height: 120px;
 }
@@ -501,14 +501,12 @@ nav ul li a:before {
 
 .past-events {
     margin: 0% 10%;
-    padding: 80px 0px;
+    /*padding: 40px 0px;*/
 }
 
 .main-row {
     padding: 22px 10px;
-    margin: 0;
-    margin-top: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     box-shadow: 0 2px 6px rgb(180, 180, 180);
     border-radius: 0rem;
 }
