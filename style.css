@@ -27,6 +27,7 @@
 }
 
 .creative p{
+    box-sizing: border-box;
     position: relative;
     font-size: 3.8vw;
     color: rgba(0, 0, 0, 0);
@@ -34,8 +35,53 @@
     text-transform: uppercase;
 }
 
-.creative p::before {
-    content: "ADVANCING TECHNOLOGY FOR HUMANITY...";
+#ADVANCING::before {
+    content: "ADVANCING";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #00629B;
+    -webkit-text-stroke: 0.1vw #00629B;
+    border-right: 2px solid #00629B;
+    animation: animate 6s linear infinite;
+    overflow: hidden;
+
+}
+
+#TECHNOLOGY::before {
+    content: " TECHNOLOGY FOR HUMANITY...";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #00629B;
+    -webkit-text-stroke: 0.1vw #00629B;
+    border-right: 2px solid #00629B;
+    animation: animate 6s linear infinite;
+    overflow: hidden;
+
+}
+
+#FOR::before {
+    content: " FOR HUMANITY...";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #00629B;
+    -webkit-text-stroke: 0.1vw #00629B;
+    border-right: 2px solid #00629B;
+    animation: animate 6s linear infinite;
+    overflow: hidden;
+
+}
+
+#HUMANITY::before {
+    content: " HUMANITY...";
     position: absolute;
     top: 0;
     left: 0;
