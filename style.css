@@ -16,10 +16,13 @@
 /* HOME PAGE */
 
 .creative{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(Assets/Images/DIT\ COVER.jpg)
 }
 
