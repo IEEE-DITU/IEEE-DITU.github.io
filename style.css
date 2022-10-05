@@ -26,16 +26,16 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(Assets/Images/DIT\ COVER.jpg)
 }
 
-.creative h2{
+.creative p{
     position: relative;
-    font-size: 4vw;
+    font-size: 3.8vw;
     color: rgba(0, 0, 0, 0);
     -webkit-text-stroke: 0.1vw #00629B;
     text-transform: uppercase;
 }
 
-h2 ::before{
-    content: attr(data-text);
+.creative p::before {
+    content: "ADVANCING TECHNOLOGY FOR HUMANITY...";
     position: absolute;
     top: 0;
     left: 0;
@@ -44,7 +44,9 @@ h2 ::before{
     color: #00629B;
     -webkit-text-stroke: 0.1vw #00629B;
     border-right: 2px solid #00629B;
-    animation: animate 6s linear 1;
+    animation: animate 6s linear infinite;
+    overflow: hidden;
+
 }
 
 @keyframes animate{
