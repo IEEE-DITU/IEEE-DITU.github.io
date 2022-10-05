@@ -15,7 +15,46 @@
 }
 /* HOME PAGE */
 
-#particles-js {
+.creative{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(Assets/Images/DIT\ COVER.jpg)
+}
+
+.creative h2{
+    position: relative;
+    font-size: 4vw;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 0.1vw #00629B;
+    text-transform: uppercase;
+}
+
+h2 ::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #00629B;
+    -webkit-text-stroke: 0.1vw #00629B;
+    border-right: 2px solid #00629B;
+    animation: animate 6s linear 1;
+}
+
+@keyframes animate{
+    0%, 10%, 100%
+    {
+        width: 0;
+    }
+    70%, 90%{
+        width: 100%;
+    }
+}
+
+#cover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
