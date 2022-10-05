@@ -88,7 +88,7 @@
                         <a class="nav-link top-link" href="./membership.html"> MEMBERSHIP</a>
                     </li>
                     <li class="nav-item  top-items px-3">
-                        <a class="nav-link top-link" href="./contact.html">CONTACT</a>
+                        <a class="nav-link top-link active" href="./contact.html">CONTACT</a>
                     </li>
                     <li>
                         <div class="dropdown" style="margin: 10px;">
@@ -249,7 +249,7 @@
     
 
 <script>
-    // Do not try to edit please
+// Do not try to edit please
 var form = document.getElementById("my-form");
 async function handleSubmit(event) {
   event.preventDefault();
@@ -265,6 +265,10 @@ async function handleSubmit(event) {
     .then((response) => {
       status.innerHTML = "Thanks for your submission!";
       status.style.textAlign = "center";
+      status.style.marginTop="5%";
+      status.style.fontWeight="800";
+      status.style.fontSize="larger";
+      status.style.color="#00629b";
       form.reset();
     })
     .catch((error) => {

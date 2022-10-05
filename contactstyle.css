@@ -5,7 +5,9 @@
 * {
     font-family: 'Montserrat';
 }
-
+.active{
+    font-weight: bolder;
+}
 
 /*LINK TO GLOBAL SITES*/
 .up {
