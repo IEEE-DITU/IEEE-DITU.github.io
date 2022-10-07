@@ -282,6 +282,16 @@ nav ul li a:before {
     margin-top: 20px;
     opacity: 50%;
 }
+.copyright-text a {
+    text-decoration: none;
+    color:white;
+    margin-top: 20px;
+}
+.copyright-text a:hover {
+    text-decoration: none;
+    color:white;
+    margin-top: 20px;
+}
 
 /* teams page css */
 
