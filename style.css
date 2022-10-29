@@ -715,6 +715,10 @@ nav ul li a:before {
     padding: 30px 100px 50px;
     text-align: center;
 }
+ #gallery-more{
+    margin: 3%;
+
+ }
 
 .gallery-column {
     padding: 3% 2%;
@@ -723,7 +727,7 @@ nav ul li a:before {
 .gallery-div {
     background-color: #EFEFEF;
     padding-top: 40px;
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 
 .card-about {
@@ -736,6 +740,14 @@ nav ul li a:before {
     font-family: "Montserrat";
     font-size: 3rem;
     padding-bottom: 35px;
+}
+
+/* .ext-img{
+    display: none;
+} */
+
+.ext-imgon{
+    visibility: visible;
 }
 
 @media only screen and (max-width: 480px) {

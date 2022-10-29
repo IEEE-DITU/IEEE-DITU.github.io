@@ -471,7 +471,18 @@ a:hover{
 @media only screen and (max-width: 480px) 
 {   
     .form-contain{
-        width: 75%;
+        width: 80%;
+        margin-top: 15%;
+    }
+
+    .form-group{
+        /* width: 80%; */
+        padding: 10px;
+        margin-top: 2%;
+    }
+
+    .form-control{
+        font-size: 0.7rem;
     }
 
     .formName{
@@ -479,23 +490,35 @@ a:hover{
     }
 
     .Formbutton{
-        width: 75%;
-        margin-top: 7.5%;
+        width: 50%;
+        margin-top: 9.5%;
+        margin-left: 5%;
+        font-size: 0.8rem;
     }
 
     .connect{
         width: 90%;
         margin-bottom: 10%;
-        margin-left: 4%;
+        margin-left: 6%;
     }
 
     .connect-under{
-        font-size: 2.75rem;
+        font-size: 1.75rem;
         margin-top: 10%;
+        margin-bottom: 2%;
+    }
+
+    .last-section{
+        margin-bottom: 5%;
     }
 
     .connect-p{
-        font-size: 1.1rem;
+        font-size: 0.8rem;
+    }
+
+    .sm-title{
+        font-size: 1.5rem;
+        margin-top: 25%;
     }
 
     .sm-text{
@@ -510,9 +533,17 @@ a:hover{
         top: 10px;
     }
 
+    .sm-link{
+        font-size: 0.8rem;
+    }
+
     .social-media{
         width: 100% !important;
        margin-bottom: 15% !important;
+    }
+
+    .socialmedia-cards{
+        margin-top: 8%;
     }
 
     .up{

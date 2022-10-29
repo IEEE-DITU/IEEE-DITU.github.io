@@ -11,28 +11,59 @@ $(document).scroll(function()
 
 })
 
+$(function(){
+  $(document).bind("resize",function(){
+   if($(this).width()<480){
+     $(".connect").removeClass('shadow-sm');
+   }
+   else{
+     $('.connect').addClass('shadow-sm');
+   }
+  }).resize();
+});
+
+$(".extra").hide();
+$("#gallery-more").click(function(){
+
+
+  if($("#gallery-more").html()==="show more..."){
+  $(".extra").show(700);
+  $("#gallery-more").html("show less");
+  
+  }
+  else{
+    $(".extra").hide(700);
+    $("#gallery-more").html("show more...");
+  }
+});
+
+
+
+
+
+
 // OWL CAROUSEL
 
-$(".owl-carousel").owlCarousel({
-  loop: true,
-  margin: 20,
-  nav: true,
-  autoplay: true,
-  center: true,
-  autoplayTimeout: 5000,
-  autoplayHoverPause: true,
-  responsive: {
-    0: {
-      items: 1,
-    },
-    600: {
-      items: 2,
-    },
-    1000: {
-      items: 3,
-    },
-  },
-});
+// $(".owl-carousel").owlCarousel({
+//   loop: true,
+//   margin: 20,
+//   nav: true,
+//   autoplay: true,
+//   center: true,
+//   autoplayTimeout: 5000,
+//   autoplayHoverPause: true,
+//   responsive: {
+//     0: {
+//       items: 1,
+//     },
+//     600: {
+//       items: 2,
+//     },
+//     1000: {
+//       items: 3,
+//     },
+//   },
+// });
 
 // READ MORE BUTTON
 let noOfCharac = 600;
@@ -57,6 +88,4 @@ let noOfCharac = 600;
           ? (btn.textContent = "Read Less")
           : (btn.textContent = "Read More");
       }
-
-
 
