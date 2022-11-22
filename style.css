@@ -26,84 +26,39 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(Assets/Images/DIT\ COVER.jpg)
 }
 
-.creative p{
-    box-sizing: border-box;
+.text{
     position: relative;
-    font-size: 3.8vw;
+    font-size: 3vw;
     color: rgba(0, 0, 0, 0);
     -webkit-text-stroke: 0.1vw #00629B;
     text-transform: uppercase;
 }
 
-#ADVANCING::before {
-    content: "ADVANCING";
+.text::before{
+    content: attr(data-text);
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 0%;
     height: 100%;
     color: #00629B;
-    -webkit-text-stroke: 0.1vw #00629B;
+    -webkit-text-stroke: 0vw #00629B;
     border-right: 2px solid #00629B;
-    animation: animate 6s linear infinite;
     overflow: hidden;
-
+    animation: text-animation 6s linear  infinite  ;
 }
 
-#TECHNOLOGY::before {
-    content: " TECHNOLOGY FOR HUMANITY...";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: #00629B;
-    -webkit-text-stroke: 0.1vw #00629B;
-    border-right: 2px solid #00629B;
-    animation: animate 6s linear infinite;
-    overflow: hidden;
+@keyframes text-animation {
 
-}
-
-#FOR::before {
-    content: " FOR HUMANITY...";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: #00629B;
-    -webkit-text-stroke: 0.1vw #00629B;
-    border-right: 2px solid #00629B;
-    animation: animate 6s linear infinite;
-    overflow: hidden;
-
-}
-
-#HUMANITY::before {
-    content: " HUMANITY...";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: #00629B;
-    -webkit-text-stroke: 0.1vw #00629B;
-    border-right: 2px solid #00629B;
-    animation: animate 6s linear infinite;
-    overflow: hidden;
-
-}
-
-@keyframes animate{
-    0%, 10%, 100%
-    {
+    0%, 10%, 100% {
         width: 0;
     }
-    70%, 90%{
-        width: 100%;
+
+    70%, 90% {
+        width: 101%;
     }
 }
+
 
 #cover {
     background-repeat: no-repeat;
