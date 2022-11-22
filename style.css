@@ -59,6 +59,41 @@
     }
 }
 
+.abc{
+    position: relative;
+    text-align: left;
+    font-size: 10vw;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 0.1vw #00629B;
+    text-transform: uppercase;
+}
+
+.abc::before{
+    content: attr(data-text);
+    position: absolute;
+    text-align: left;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: #00629B;
+    -webkit-text-stroke: 0vw #00629B;
+    border-right: 2px solid #00629B;
+    overflow: hidden;
+    animation: text-animation 6s linear  infinite  ;
+}
+
+@media (max-width: 767px) {
+    .hidden-mobile {
+      display: none;
+    }
+}
+
+@media (min-width: 767px) {
+    .hidden-desktop {
+      display: none;
+    }
+}
 
 #cover {
     background-repeat: no-repeat;
